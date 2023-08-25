@@ -1,0 +1,138 @@
+header {
+  color: #2c2d35;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.name_website {
+  width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 33px 165px 32px 165px;
+  background-color: #e1ede6;
+  display: flex;
+  flex-direction: row;
+}
+
+.name_icon_star {
+  width: 35px;
+  height: 35px;
+}
+.name_Ink_house {
+  width: 597px;
+  display: inline;
+  vertical-align: -1%;
+  color: #598d66;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.name_reproductions {
+  width: 160px;
+  display: inline;
+}
+.rep_position {
+  vertical-align: -35%;
+  text-decoration: none;
+}
+.name_new_things {
+  width: 144px;
+}
+.name_about {
+  width: 114px;
+}
+.name_basket {
+  width: 82px;
+}
+.name_icon_basket {
+  width: 22px;
+  height: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    color: #2c2d35;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .name_website {
+    width: 768px;
+    height: 100px;
+
+    padding: 33px 39px 32px 39px;
+    background-color: #e1ede6;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .name_icon_star {
+    width: 35px;
+    height: 35px;
+  }
+  .name_Ink_house {
+    width: 143px;
+    display: inline;
+    vertical-align: -1%;
+    color: #598d66;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px 51px 32px 39px;
+  }
+
+  .name_reproductions {
+    width: 160px;
+    display: inline;
+    margin: 0px 30px 32px 51px;
+    color: #2c2d35;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .rep_position {
+    vertical-align: -35%;
+    text-decoration: none;
+  }
+  .name_new_things {
+    width: 144px;
+    margin: 0px 30px 32px 0;
+    color: #2c2d35;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .name_about {
+    width: 114px;
+    margin: 0px 10px 0 30px;
+    color: #2c2d35;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .name_basket {
+    width: 82px;
+    margin: 0px 10px 0 10px;
+  }
+  .name_icon_basket {
+    width: 22px;
+    height: 22px;
+  }
+}

@@ -1,0 +1,43 @@
+.team {
+  width: 1140px;
+  height: auto;
+}
+
+.team_about {
+  width: 1110px;
+  height: 440px;
+  margin: 70px 165px 20px 165px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+h2 {
+  width: 281px;
+  height: 44px;
+  color: #2c2d35;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 44px */
+  margin: 124px 354px 10px 30px;
+}
+.team_describtion {
+  width: 635px;
+  color: #2c2d35;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  margin: 10px 165px 10px 30px;
+}
+
+.team_photos {
+  width: 300px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 335px 44px 30px;
+}
