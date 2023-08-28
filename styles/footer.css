@@ -101,3 +101,114 @@ a {
   line-height: 120%; /* 14.4px */
   margin: 5px 165px 3px 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer_nav {
+    width: 768px;
+    height: 250px;
+    background: #e1ede6;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .footer_part1 {
+    width: 690px;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 23px 39px 15px 39px;
+  }
+  .footer_logo {
+    width: 143px;
+    height: 35px;
+    color: #598d66;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 0 0 0;
+  }
+  .footer_tel {
+    width: 170px;
+    height: 23px;
+    color: #2c2d35;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 0 8px auto;
+  }
+  .footer_craft {
+    color: #86928b;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .footer_part2 {
+    width: 445px;
+    height: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto 23px 39px;
+  }
+  .footer_navigation {
+    width: 445px;
+    height: 122px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  ul {
+    color: #2c2d35;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+  li {
+    color: #86928b;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .footer_part3 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_icons {
+    width: 132px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 77px 8px auto;
+  }
+  .footer_copyright {
+    color: #86928b;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 14.4px */
+    margin: 0px 77px 8px auto;
+  }
+}

@@ -4,7 +4,7 @@
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-    padding: 30px 0 0 0;
+  padding: 30px 0 0 0;
 }
 .germany_cards {
   width: 350px;
@@ -13,7 +13,7 @@
   margin: 0 15px 15px 0;
 }
 .card1 {
-  width: 310px;
+  width: 290px;
   height: 422px;
   margin: 20px;
 }
@@ -58,14 +58,11 @@ h4 {
 }
 
 .cards_basket {
-  display: flex;
-  width: 310px;
+  width: 290px;
   height: 65px;
-  margin: 10px 20px 30px 20px;
-  justify-content: center;
-  align-items: center;
-  gap: 6px;
-  flex-shrink: 0;
+  margin: 0px 20px 30px 20px;
+  padding: 20px 60px;
+
   border: 1px solid #598d66;
   background-color: #e1ede6;
   color: #598d66;
@@ -86,4 +83,154 @@ h4 {
   font-weight: 500;
   line-height: normal;
   cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .reproduction {
+    width: 690px;
+    height: 2250px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0;
+  }
+  .repro {
+    width: 690px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 39px;
+  }
+  .reproduction_e1 {
+    width: 194px;
+    height: 33px;
+    color: #2c2d35;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 33px */
+    margin: auto;
+  }
+  .reproduction_buttons {
+    width: 433px;
+    height: 33px;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+  }
+  .rep_button {
+    margin: -6px 16px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #d4e8d9;
+    color: #2c2d35;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-style: solid;
+    border: none;
+  }
+  .rep_button:hover {
+    border-radius: 20px;
+    background: #376b44;
+    color: #f4f6f5;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    border: none;
+  }
+  .germany_all_cards {
+    width: 768px;
+    height: 2250px;
+    margin: 0 auto;
+    padding: 30px 39px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .germany_cards {
+    width: 330px;
+    height: 730px;
+    background: #e1ede6;
+    margin: 0 15px 15px 0;
+  }
+  .card1 {
+    width: 290px;
+    height: 422px;
+    margin: 20px;
+  }
+
+  .cards_author {
+    color: #86928b;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 10px 20px;
+  }
+
+  h4 {
+    color: #2c2d35;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 10px 0px 8px 0;
+  }
+
+  .cards_materials {
+    color: #2c2d35;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0px 0px 30px 0px;
+  }
+  .cards_prize {
+    color: #598d66;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 10px 20px;
+  }
+
+  .cards_basket {
+    width: 290px;
+    height: 65px;
+    margin: 0px 20px 30px 20px;
+    padding: 20px 60px;
+
+    border: 1px solid #598d66;
+    background-color: #e1ede6;
+    color: #598d66;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .cards_basket:hover {
+    border: 1px solid #598d66;
+    background-color: #e1ede6;
+    color: #598d66;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 576px) {
+  
 }
