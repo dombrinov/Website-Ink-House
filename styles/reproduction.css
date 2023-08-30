@@ -1,19 +1,17 @@
 .reproduction {
-  width: 1110px;
-  height: 1564px;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
 }
-.repro {
-  width: 1110px;
-  height: auto 44px;
+
+.reproduction_menu {
+  max-width: 1110px;
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
+  justify-content: space-between;
 }
-.reproduction_e1 {
-  width: 50%;
+.reproduction_title {
+  width: 255px;
   color: #2c2d35;
   font-family: Raleway;
   font-size: 40px;
@@ -22,12 +20,12 @@
   line-height: 110%; /* 44px */
 }
 .reproduction_buttons {
-  width: 50%;
+  width: 428px;
   display: flex;
-  justify-content: right;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .rep_button {
-  margin: 0 16px;
   padding: 10px 20px;
   border-radius: 20px;
   background: #d4e8d9;
@@ -52,26 +50,26 @@
   cursor: pointer;
   border: none;
 }
-.reproduction_e2 {
-  width: 1110px;
-  height: auto 44px;
-  margin: 0 auto;
-  padding: 30px 0 0 0;
+.reproduction_cards {
+  max-width: 1111px;
+  margin: 30px 0 70px 0;
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
 }
-
 .rep_cards {
-  width: 350px;
-  height: 730px;
+  max-width: 350px;
   background: #e1ede6;
-  margin: 0 15px 15px 0;
 }
 .card1 {
-  width: 290px;
-  height: 422px;
+  max-width: 310px;
+  margin: 20px;
 }
-
+.rep_picture_card {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
 .cards_author {
   color: #86928b;
   font-family: Raleway;
@@ -79,10 +77,10 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin: 10px 20px;
+  margin: 0 20px;
 }
 
-h4 {
+.cards_title {
   color: #2c2d35;
   font-family: Raleway;
   font-size: 30px;
@@ -99,7 +97,7 @@ h4 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin: 10px 20px 10px 20px;
+  margin: 0 20px 30px 20px;
 }
 .cards_prize {
   color: #598d66;
@@ -108,7 +106,7 @@ h4 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin: 10px 20px;
+  margin: 0 20px 20px 20px;
 }
 
 .cards_basket {
@@ -145,39 +143,34 @@ h4 {
 
 @media screen and (max-width: 768px) {
   .reproduction {
-    width: 690px;
-    height: 2250px;
+    max-width: 768px;
     display: flex;
     flex-direction: column;
-    margin: 0 0;
   }
-  .repro {
-    width: 690px;
-    height: 44px;
+
+  .reproduction_menu {
+    max-width: 768px;
     display: flex;
     flex-direction: row;
-    margin: 0 39px;
+    justify-content: space-between;
+    align-items: center;
   }
-  .reproduction_e1 {
+  .reproduction_title {
     width: 194px;
-    height: 33px;
     color: #2c2d35;
     font-family: Raleway;
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
     line-height: 110%; /* 33px */
-    margin: auto;
   }
   .reproduction_buttons {
     width: 433px;
-    height: 33px;
     display: flex;
-    justify-content: right;
-    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .rep_button {
-    margin: -6px 16px;
     padding: 10px 20px;
     border-radius: 20px;
     background: #d4e8d9;
@@ -202,27 +195,26 @@ h4 {
     cursor: pointer;
     border: none;
   }
-  .reproduction_e2 {
-    width: 768px;
-    height: 2250px;
-    margin: 0 auto;
-    padding: 30px 39px;
+  .reproduction_cards {
+    max-width: 690px;
+    margin: 30px 0 70px 0;
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
   }
-
   .rep_cards {
-    width: 330px;
-    height: 730px;
+    max-width: 330px;
     background: #e1ede6;
-    margin: 0 15px 15px 0;
   }
   .card1 {
-    width: 290px;
-    height: 422px;
+    max-width: 290px;
     margin: 20px;
   }
-
+  .rep_picture_card {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
   .cards_author {
     color: #86928b;
     font-family: Raleway;
@@ -230,17 +222,17 @@ h4 {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 10px 20px;
+    margin: 0 20px;
   }
 
-  h4 {
+  .cards_title {
     color: #2c2d35;
     font-family: Raleway;
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 10px 0px 8px 0;
+    margin: 10px 20px;
   }
 
   .cards_materials {
@@ -250,7 +242,7 @@ h4 {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 0px 0px 30px 0px;
+    margin: 0 20px 30px 20px;
   }
   .cards_prize {
     color: #598d66;
@@ -259,15 +251,19 @@ h4 {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 10px 20px;
+    margin: 0 20px 20px 20px;
   }
 
   .cards_basket {
+    display: flex;
     width: 290px;
     height: 65px;
-    margin: 0px 20px 30px 20px;
+    margin: 10px 20px 30px 20px;
     padding: 20px 60px;
-
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
     border: 1px solid #598d66;
     background-color: #e1ede6;
     color: #598d66;
@@ -290,25 +286,23 @@ h4 {
     cursor: pointer;
   }
 }
-
 @media screen and (max-width: 576px) {
   .reproduction {
-    width: 510px;
-    height: 1709px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0 0;
-  }
-  .repro {
-    width: 408px;
-    height: 87px;
+    max-width: 576px;
     display: flex;
     flex-direction: column;
   }
-  .reproduction_e1 {
+
+  .reproduction_menu {
+    max-width: 408px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .reproduction_title {
     width: 155px;
-    height: 26px;
     color: #2c2d35;
     font-family: Raleway;
     font-size: 24px;
@@ -318,13 +312,11 @@ h4 {
   }
   .reproduction_buttons {
     width: 408px;
-    height: 41px;
     display: flex;
-    justify-content: right;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .rep_button {
-    width: 118px;
-    height: 41px;
     padding: 10px 20px;
     border-radius: 20px;
     background: #d4e8d9;
@@ -342,63 +334,45 @@ h4 {
     background: #376b44;
     color: #f4f6f5;
     font-family: Raleway;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     cursor: pointer;
     border: none;
   }
-  .reproduction_e2 {
-    width: 510px;
-    height: 1602px;
+  .reproduction_cards {
+    max-width: 510px;
+    margin: 20px 0 50px 0;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 0;
+    gap: 30px;
   }
-
   .rep_cards {
-    width: 240px;
-    height: 514px;
+    max-width: 240px;
     background: #e1ede6;
   }
   .card1 {
-    width: 200px;
-    height: 250px;
-    margin: 0 0;
+    max-width: 200px;
+    margin: 20px;
   }
-
+  .rep_picture_card {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
   .cards_author {
     color: #86928b;
     font-family: Raleway;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 10px 20px;
+    margin: 0 20px;
   }
 
-  h4 {
+  .cards_title {
     color: #2c2d35;
-    font-family: Raleway;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin: 10px 0px 8px 0;
-  }
-
-  .cards_materials {
-    color: #2c2d35;
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin: 0px 0px 30px 0px;
-  }
-  .cards_prize {
-    color: #598d66;
     font-family: Raleway;
     font-size: 24px;
     font-style: normal;
@@ -407,17 +381,40 @@ h4 {
     margin: 10px 20px;
   }
 
-  .cards_basket {
-    width: 290px;
-    height: 65px;
-    margin: 0px 20px 30px 20px;
-    padding: 20px 60px;
+  .cards_materials {
+    color: #2c2d35;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 20px 30px 20px;
+  }
+  .cards_prize {
+    color: #598d66;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 20px 20px 20px;
+  }
 
+  .cards_basket {
+    display: flex;
+    width: 200px;
+    height: 65px;
+    margin: 10px 20px 30px 20px;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
     border: 1px solid #598d66;
     background-color: #e1ede6;
     color: #598d66;
     font-family: Raleway;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -428,7 +425,156 @@ h4 {
     background-color: #e1ede6;
     color: #598d66;
     font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .reproduction {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reproduction_menu {
+    max-width: 384px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .reproduction_title {
+    max-width: 155px;
+    color: #2c2d35;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 26.4px */
+  }
+  .reproduction_buttons {
+    max-width: 320px;
+    overflow: scroll;
+    white-space: nowrap;
+  }
+  .rep_button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #d4e8d9;
+    color: #2c2d35;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-style: solid;
+    border: none;
+    display: inline-block;
+  }
+  .rep_button:hover {
+    border-radius: 20px;
+    background: #376b44;
+    color: #f4f6f5;
+    font-family: Raleway;
     font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    border: none;
+  }
+  .reproduction_cards {
+    max-width: 320px;
+    margin: 20px 0 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .rep_cards {
+    max-width: 290px;
+    background: #e1ede6;
+    margin: 0 10px;
+  }
+  .card1 {
+    max-width: 250px;
+    height: 250px;
+    margin: 20px;
+  }
+  .rep_picture_card {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .cards_author {
+    color: #86928b;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 20px;
+  }
+
+  .cards_title {
+    color: #2c2d35;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 10px 20px;
+  }
+
+  .cards_materials {
+    color: #2c2d35;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 20px 30px 20px;
+  }
+  .cards_prize {
+    color: #598d66;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 20px 20px 20px;
+  }
+
+  .cards_basket {
+    display: flex;
+    width: 250px;
+    height: 65px;
+    margin: 10px 20px 30px 20px;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    border: 1px solid #598d66;
+    background-color: #e1ede6;
+    color: #598d66;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .cards_basket:hover {
+    border: 1px solid #598d66;
+    background-color: #e1ede6;
+    color: #598d66;
+    font-family: Raleway;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
