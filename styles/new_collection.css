@@ -1,19 +1,20 @@
 .new_collection {
-  max-width: 1440px;
-  margin: 0 auto;
-  background: url(../images/new_collections/photo_2023-08-24_13-51-03.png)
-    no-repeat center/cover;
+  width: 100%;
+  height: 100%;
+  background: url(../images/new_collections/pic_background.webp) no-repeat
+    center/cover;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding: 70px 165px;
 }
 
 .collection_title {
   max-width: 521px;
-  margin: 70px auto 0 165px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 20px;
   color: #f4f6f5;
   font-family: Raleway;
   font-size: 40px;
@@ -35,7 +36,7 @@
 }
 .collection_text {
   max-width: 540px;
-  margin: 20px auto 60px 165px;
+  margin: 20px auto 0 0;
   color: #fff;
   font-family: Raleway;
   font-size: 18px;
@@ -48,7 +49,7 @@
 .collection_button {
   max-width: 267px;
   padding: 20px 60px;
-  margin: 0 auto 70px 165px;
+  margin: 60px auto 0 0;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -59,23 +60,23 @@
   font-weight: 500;
   line-height: normal;
   background: #eedb6d;
-  margin: 40px 20px 70px 165px;
+  border: 0;
 }
 
 @media screen and (max-width: 768px) {
   .new_collection {
     max-width: 768px;
     margin: 0 0;
-    background: url(../images/new_collections/photo_2023-08-24_13-51-03.png)
+    background: url(../images/new_collections/pic_background_768px.webp)
       no-repeat center/cover;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 70px 37px 70px 39px;
   }
 
   .collection_title {
     max-width: 450px;
-    margin: 70px auto 10px 39px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -100,7 +101,7 @@
   }
   .collection_text {
     max-width: 690px;
-    margin: 20px auto 30px 39px;
+    margin: 30px 0 0 0;
     color: #fff;
     font-family: Raleway;
     font-size: 18px;
@@ -113,7 +114,7 @@
   .collection_button {
     max-width: 210px;
     padding: 20px 60px;
-    margin: 0 auto 70px 39px;
+    margin: 30px 0 0 0;
     display: inline-flex;
     justify-content: center;
     align-items: center;

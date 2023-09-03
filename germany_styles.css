@@ -60,10 +60,10 @@
 .germany_cards {
   max-width: 350px;
   background: #e1ede6;
+  padding: 20px 20px 30px 20px;
 }
 .card1 {
   max-width: 310px;
-  margin: 20px;
 }
 .rep_picture_card {
   width: 100%;
@@ -77,7 +77,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin: 0 20px;
+  margin: 20px auto 0 0;
 }
 
 .cards_title {
@@ -87,7 +87,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin: 10px 20px;
+  margin: 10px auto 0 0;
 }
 
 .cards_materials {
@@ -97,7 +97,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin: 0 20px 30px 20px;
+  margin: 8px auto 0 0;
 }
 .cards_prize {
   color: #598d66;
@@ -106,14 +106,14 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin: 0 20px 20px 20px;
+  margin: 30px auto 0 0;
 }
 
 .cards_basket {
   display: flex;
   width: 310px;
   height: 65px;
-  margin: 10px 20px 30px 20px;
+  margin: 20px auto 0 0;
   padding: 20px 60px;
   justify-content: center;
   align-items: center;
@@ -131,14 +131,15 @@
 
 .cards_basket:hover {
   border: 1px solid #598d66;
-  background-color: #e1ede6;
-  color: #598d66;
+  background: #376b44;
+  color: #f4f6f5;
   font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   cursor: pointer;
+  transition: 1s;
 }
 
 @media screen and (max-width: 768px) {
@@ -208,7 +209,6 @@
   }
   .card1 {
     max-width: 290px;
-    margin: 20px;
   }
   .rep_picture_card {
     width: 100%;
@@ -222,7 +222,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 0 20px;
+    margin: 20px 0 0 0;
   }
 
   .cards_title {
@@ -232,7 +232,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 10px 20px;
+    margin: 10px 0 0 0;
   }
 
   .cards_materials {
@@ -242,7 +242,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 0 20px 30px 20px;
+    margin: 8px 0 0 0;
   }
   .cards_prize {
     color: #598d66;
@@ -251,19 +251,18 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 0 20px 20px 20px;
+    margin: 30px 0 0 0;
   }
 
   .cards_basket {
     display: flex;
     width: 290px;
     height: 65px;
-    margin: 10px 20px 30px 20px;
+    margin: 20px 0 0 0;
     padding: 20px 60px;
     justify-content: center;
     align-items: center;
-    gap: 6px;
-    flex-shrink: 0;
+
     border: 1px solid #598d66;
     background-color: #e1ede6;
     color: #598d66;
@@ -276,14 +275,15 @@
 
   .cards_basket:hover {
     border: 1px solid #598d66;
-    background-color: #e1ede6;
-    color: #598d66;
+    background: #376b44;
+    color: #f4f6f5;
     font-family: Raleway;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     cursor: pointer;
+    transition: 1s;
   }
 }
 @media screen and (max-width: 576px) {
@@ -354,7 +354,6 @@
   }
   .card1 {
     max-width: 200px;
-    margin: 20px;
   }
   .rep_picture_card {
     width: 100%;
@@ -368,7 +367,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 0 20px;
+    margin: 15px 0 0 0;
   }
 
   .cards_title {
@@ -378,7 +377,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 10px 20px;
+    margin: 10px 0 0 0;
   }
 
   .cards_materials {
@@ -388,7 +387,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 0 20px 30px 20px;
+    margin: 10px 0 0 0;
   }
   .cards_prize {
     color: #598d66;
@@ -397,19 +396,17 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 0 20px 20px 20px;
+    margin: 30px 0 0 0;
   }
 
   .cards_basket {
     display: flex;
     width: 250px;
     height: 65px;
-    margin: 10px 20px 30px 20px;
+    margin: 10px 0 0 0;
     padding: 10px 30px;
     justify-content: center;
     align-items: center;
-    gap: 6px;
-    flex-shrink: 0;
     border: 1px solid #598d66;
     background-color: #e1ede6;
     color: #598d66;
@@ -422,8 +419,8 @@
 
   .cards_basket:hover {
     border: 1px solid #598d66;
-    background-color: #e1ede6;
-    color: #598d66;
+    background: #376b44;
+    color: #f4f6f5;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;

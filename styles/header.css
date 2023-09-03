@@ -6,17 +6,23 @@ header {
   font-weight: 500;
   line-height: normal;
 }
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.name_header {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .mobile_menu {
   display: none;
 }
 .name_website {
-  max-width: 1440px;
-  margin: 0 auto;
   padding: 33px 165px 32px 165px;
   background-color: #e1ede6;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .name_Ink_house {
@@ -24,6 +30,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 8px;
 }
 
 .name_icon {
@@ -74,6 +81,14 @@ header {
   height: 100%;
   display: block;
 }
+.style_name_button:hover {
+  color: #598d66;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 
 @media screen and (max-width: 768px) {
   header {
@@ -84,6 +99,17 @@ header {
     font-weight: 500;
     line-height: normal;
   }
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .name_header {
+    max-width: 768px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .mobile_menu {
     display: none;
   }
@@ -92,9 +118,6 @@ header {
     margin: 0 auto;
     padding: 33px 39px 32px 39px;
     background-color: #e1ede6;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
   }
 
   .name_Ink_house {
@@ -126,6 +149,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
   .rep_position {
     text-decoration: none;
@@ -162,18 +186,26 @@ header {
     font-weight: 500;
     line-height: normal;
   }
+  .container {
+    max-width: 576px;
+    margin: 0 auto;
+    padding: 0;
+  }
   .mobile_menu {
     display: none;
   }
   .name_website {
     max-width: 576px;
+    padding: 16px 33px;
     margin: 0 auto;
     background-color: #e1ede6;
+  }
+  .name_header {
+    max-width: 576px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-
   .name_Ink_house {
     max-width: 143px;
     margin: 16px auto 16px auto;
@@ -253,7 +285,16 @@ header {
     justify-content: space-between;
     padding: 0 0 0 0;
   }
-
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .name_header {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0;
+  }
   .name_Ink_house {
     max-width: 143px;
     display: flex;
